@@ -1,0 +1,18 @@
+### create 3 repos in Dockerhub
+
+- sosotech/sosotechapp
+- sosotech/sosotechdb
+- sosotech/sosotechweb
+
+### build as
+
+``` 
+docker build -t sosotech/sosotechapp:v1 .
+docker build -t sosotech/sosotechdb:v1 .
+docker build -t sosotech/sosotechweb:v1 .
+```
+
+
+```docker pull nginx```
+```docker pull memcached```
+```docker pull rabbitmq```
